@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre:400,400i|Dancing+Script:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');  
+@import url('https://fonts.googleapis.com/css?family=Asul');  
+@import url('https://fonts.googleapis.com/css?family=Kalam&display=swap');
+@import '~bootstrap/scss/bootstrap.scss';
+
+$primary-color:#582254;
+$secondary-color:#583657;
+$tertiary-color:#6c4073;
+$primary-background:#222;
+$primary-hover-color:  rgba(132, 41, 163, 0.6); 
+$page-background:#FFFFFF;
+$primary-text-color:#FFFFFF;
+
+
+:root {
+    --primary-text-font:'Kalam', cursive ;
+    --secondary-text-font:'Dancing Script', cursive;
+    --button-text-font: 'Indie Flower', cursive;
+    --simple-text-font:'Asul', sans-serif;
+    --fancy-text-font:'Pacifico', cursive;                                                       
+    --primary-bg-color: $primary-background; 
+    --primary-hover-color: rgba(140, 203, 233, 0.6);                                                                            
+    --primary-click-color: rgba(29, 56, 212, 0.6);   
+    --primary-hover-color:rgb(87, 4, 80);                                                                                  
+}
+
+html,body{
+  width: 100vw;
+  height:100vh;
+  margin:0;
+  padding:0;
+}
+
+

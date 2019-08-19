@@ -1,0 +1,30 @@
+@import './main.scss';
+
+.navbar{
+    background-color:rgba($primary-background,1)!important;
+    font-family:var(--primary-text-font); 
+    padding:5px;
+    color:#ffffff;
+    text-align: center;
+    z-index:999;
+    text-transform:capitalize;
+    transition: all 1s;
+    *{
+         transition: all 1s;
+    }
+    width: 100vw;
+    &:hover{
+        background-color:rgba($primary-hover-color,1)!important;
+        box-shadow:0px 3px 0px rgba($primary-background,0.8);
+        color:rgba($primary-text-color,1)!important;
+        opacity:1;
+    }
+     &.scrolled-up{
+        background-color:rgba($primary-color,0)!important;
+       opacity:0;          
+    }
+}
+   .placeholder-navbar{
+        width: 100%;
+        padding: calc(5px + 2px);
+      }
