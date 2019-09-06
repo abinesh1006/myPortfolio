@@ -3,8 +3,7 @@
 .navbar{
     background-color:rgba($primary-background,1)!important;
     font-family:var(--primary-text-font); 
-    padding:5px;
-    color:#ffffff;
+    padding:4px;
     text-align: center;
     z-index:999;
     text-transform:capitalize;
@@ -15,13 +14,9 @@
     width: 100vw;
     &:hover{
         background-color:rgba($primary-hover-color,1)!important;
-        box-shadow:0px 3px 0px rgba($primary-background,0.8);
+        box-shadow:0px 0px 2px rgba($primary-background,0.8);
         color:rgba($primary-text-color,1)!important;
         opacity:1;
-    }
-     &.scrolled-up{
-        background-color:rgba($primary-color,0)!important;
-       opacity:0;          
     }
 }
    .placeholder-navbar{

@@ -16,7 +16,8 @@ export default class App extends Component {
         return (
             <div className="app-container" >                
                 <NavBar />
-                <Home />
+                <Home className="mt-100"/>
+                
             </div>
      
   )

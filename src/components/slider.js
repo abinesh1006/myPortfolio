@@ -14,39 +14,41 @@ function ControlledCarousel() {
   return (
     <Carousel activeIndex={index} direction={direction} onSelect={handleSelect}>
       <Carousel.Item>
-        <img
-          className="d-block w-100 h-25"
-          src="https://homepages.cae.wisc.edu/~ece533/images/lena.png"
+          <img style={{height:"520px"}}
+          className="d-block w-100"
+          src="/imgs/Dev.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Developer</h3>
+          <p>Learn new things by trying differnt things</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img
-          className="d-block w-100 h-25"
-          src="https://homepages.cae.wisc.edu/~ece533/images/zelda.png"
+        <img 
+         style={{height:"520px"}}
+          className="d-block w-100"
+          src="/imgs/pic.jpg"
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Learn With Me</h3>
+          <p>Its more about sharing...</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100 h-25"
-          src="https://homepages.cae.wisc.edu/~ece533/images/zelda.png"
+      <Carousel.Item >
+        <img  style={{height:"520px"}}
+
+          className="d-block w-100"
+          src="/imgs/Me.jpg"
           alt="Third slide"
         />
 
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
+    <Carousel.Caption>
+          <h3>More About me</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Go to the Blogs and Read it ..........
           </p>
         </Carousel.Caption>
       </Carousel.Item>
