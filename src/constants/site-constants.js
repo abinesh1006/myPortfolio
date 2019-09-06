@@ -1,1 +1,1 @@
-export const SITE_NAME = 'Abinesh Subramani'
+export const SITE_NAME = 'Abinesh S'
