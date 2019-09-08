@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/*"
+  to = "/Error.html"
+  status = 404
+  force = true
